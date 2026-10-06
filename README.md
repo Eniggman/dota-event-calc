@@ -91,3 +91,9 @@ python3 dota_event_calc.py 123456789 --stratz-token eyJhbGciOi...
 
 🔥 ВЕРДИКТ: Играй в ТУРБО — на 4% больше билетов!
 ```
+
+---
+
+## English summary
+
+A Python command-line calculator for the Dota 2 Dark Carnival (Clownfall) event that tells you whether Ranked All Pick or Turbo earns more event tickets per minute of real time. It pulls your own match statistics from the OpenDota API and the STRATZ GraphQL API (a free STRATZ token is recommended), compares win rate and average match length, and prints tickets per minute and per hour, a verdict and the break-even Turbo win rate. Run it with your numeric Steam account ID: `python3 dota_event_calc.py <steam_account_id> [--stratz-token TOKEN]`; you can also hand the repo to an AI agent and let it run the calculation for you.
